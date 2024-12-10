@@ -41,11 +41,12 @@ body {
 }
 
 #content {
-    width: 800px;
+    width: 1440px;
     margin: auto;
     height: 100%;
     display: flex;
     align-items: center;
+    position: relative;
   }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
