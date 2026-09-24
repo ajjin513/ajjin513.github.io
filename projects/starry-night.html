@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Starry Night — Hong Ju Jin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container">
+      <a class="brand" href="../index.html#about">Hong Ju Jin<span>.</span></a>
+      <nav class="tabs" aria-label="Sections">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#projects" aria-current="page">Projects</a>
+        <a href="../index.html#experience">Experience</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail">
+    <div class="container">
+      <a class="back" href="../index.html#projects">← All projects</a>
+      <div class="detail-head">
+        <p class="eyebrow">Digital Object · IS 310</p>
+        <h1>The Starry Night</h1>
+        <p class="role">Vincent van Gogh, 1889. Museum of Modern Art (MoMA)</p>
+      </div>
+
+      <div class="hero-img"><img src="../images/starry-night.jpg" alt="The Starry Night by Vincent van Gogh, a swirling night sky over a village with a large cypress tree in the foreground"></div>
+
+      <div class="prose">
+        <h2>What this object represents</h2>
+        <p>
+          Van Gogh painted this scene in June 1889 while a patient at the asylum
+          of Saint-Paul-de-Mausole near Saint-Rémy-de-Provence, France. The view
+          is part observation and part invention: the rolling hills and the
+          cypress tree were visible from his window, but the village in the
+          valley below was added from memory rather than sight. The sky, painted
+          with short, twisting strokes of blue and yellow, is often read as a
+          record of Van Gogh's emotional state as much as it is a landscape.
+        </p>
+        <p>
+          This painting matters to a project about digitized visual art because
+          it shows the gap between an artwork and its digital surrogate. A JPEG
+          of <em>The Starry Night</em> can reproduce the composition and colors,
+          but not the texture of the impasto paint, the true scale of the
+          canvas, or the way the surface catches light in person. Studying how
+          museums like MoMA choose to photograph, crop, and caption a painting
+          for the web is itself a way of asking what gets preserved — and what
+          gets lost — when a physical object becomes cultural data.
+        </p>
+
+        <h2>Metadata</h2>
+        <ul class="metadata-list">
+          <li><strong>Artist:</strong> Vincent van Gogh</li>
+          <li><strong>Date:</strong> Saint Rémy, June 1889</li>
+          <li><strong>Medium:</strong> Oil on canvas</li>
+          <li><strong>Dimensions:</strong> 73.7 cm × 92.1 cm (29 in × 36 1/4 in)</li>
+          <li><strong>Classification:</strong> Painting</li>
+          <li><strong>Credit line:</strong> Acquired through the Lillie P. Bliss Bequest, 1941</li>
+          <li><strong>Accession number:</strong> 472.1941</li>
+          <li><strong>Department:</strong> Painting and Sculpture</li>
+          <li><strong>Current location:</strong> Museum of Modern Art (MoMA), New York</li>
+        </ul>
+
+        <h2>Sources</h2>
+        <ul>
+          <li><a href="https://www.moma.org/collection/works/79802" target="_blank" rel="noopener">MoMA object record for The Starry Night</a></li>
+          <li><a href="https://www.moma.org/collection/" target="_blank" rel="noopener">MoMA Collection Online</a></li>
+        </ul>
+
+        <div class="fact-box">
+          <button onclick="document.getElementById('fact').textContent = facts[Math.floor(Math.random() * facts.length)];">
+            Show me a fact about this painting
+          </button>
+          <p id="fact"></p>
+        </div>
+      </div>
+
+      <script>
+        const facts = [
+          "Van Gogh could see the sky through his asylum window, but painted the village from memory.",
+          "The painting has been part of MoMA's collection since 1941.",
+          "Van Gogh wrote in a letter that he saw 'a magnificent star, glinting so brightly' from his window that inspired the scene.",
+          "The cypress tree was a recurring motif Van Gogh associated with mourning and eternity."
+        ];
+      </script>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Hong Ju Jin</span>
+      <span><a href="../index.html#contact">Get in touch</a></span>
+    </div>
+  </footer>
+
+</body>
+</html>
