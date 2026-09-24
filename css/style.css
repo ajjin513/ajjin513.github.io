@@ -1,4 +1,3 @@
-/* ---------- Tokens ---------- */
 :root {
   --bg: #fafaf8;
   --surface: #ffffff;
@@ -45,7 +44,6 @@
   color-scheme: dark;
 }
 
-/* ---------- Base ---------- */
 * {
   box-sizing: border-box;
 }
